@@ -1,6 +1,6 @@
 const app = require('express')();
 const fetch = require("node-fetch-commonjs")
-const PORT = 3000;
+const PORT = 443 || 80 || 3000;
 
 app.get('/', (req, res) => {
   res.send('Hello World !')
